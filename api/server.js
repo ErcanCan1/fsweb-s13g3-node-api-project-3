@@ -1,6 +1,7 @@
 const express = require('express');
 const { logger } = require("./middleware/middleware.js");//logger olarak çağırmak yeterli.
 //const md = require("./middleware/middleware.js") şeklinde de yazılabilir ama bu sefer logger i kullanmak için md.logger olarak çağırmak gerekir
+const router = require("./users/users-router.js");
 const server = express();
 
 
